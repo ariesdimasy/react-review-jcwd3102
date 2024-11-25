@@ -5,3 +5,7 @@
     border:2px dotted blue;
     border-radius:20px;
 }
+
+.card h1 { 
+    color: chocolate;
+}

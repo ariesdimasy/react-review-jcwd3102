@@ -7,7 +7,7 @@ interface ICard {
 
 export default function Card(props:ICard){
     return (<div className={style.card}>
-        <div> Header Card : {props.title} </div>
+        <h1> Header Card : {props.title} </h1>
         <div>{props.children}</div>
     </div>)
 }
